@@ -1,0 +1,144 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "username": "vitran",
+      "email": "vitran",
+      "password": "123456"
+    },
+    {
+      "id": 2,
+      "username": "vitran",
+      "email": "admin",
+      "password": "admin"
+    },
+    {
+      "username": "vitran",
+      "email": "vitran2",
+      "password": "1234",
+      "id": 3
+    },
+    {
+      "username": "vitran",
+      "email": "vitran4",
+      "password": "1234",
+      "id": 4
+    },
+    {
+      "username": "vitran",
+      "email": "sadsad",
+      "password": "123",
+      "id": 5
+    },
+    {
+      "username": "vitran",
+      "email": "vitran",
+      "password": "123",
+      "id": 6
+    },
+    {
+      "username": "vitran",
+      "email": "vitran",
+      "password": "123456",
+      "id": 7
+    },
+    {
+      "username": "vitran",
+      "email": "vitran",
+      "password": "123456",
+      "id": 8
+    },
+    {
+      "username": "vitran",
+      "email": "vitran",
+      "password": "123",
+      "id": 9
+    },
+    {
+      "username": "vitran",
+      "email": "vitran",
+      "password": "asldjsalkdjsalkdljsa",
+      "id": 10
+    },
+    {
+      "username": "vitran",
+      "email": "asdsad123",
+      "password": "123123",
+      "id": 11
+    },
+    {
+      "username": "vitran",
+      "email": "asdasd",
+      "password": "12312",
+      "id": 12
+    },
+    {
+      "username": "vitran",
+      "email": "admin",
+      "password": "admin",
+      "id": 13
+    },
+    {
+      "username": "vitran",
+      "email": "admin",
+      "password": "admin",
+      "id": 14
+    },
+    {
+      "username": "vitran",
+      "email": "thuhuong",
+      "password": "123456",
+      "id": 15
+    },
+    {
+      "username": "vitran",
+      "email": "thuh33uong",
+      "password": "123456",
+      "id": 16
+    },
+    {
+      "username": "vitran",
+      "email": "thuhuong09",
+      "password": "123456",
+      "id": 17
+    },
+    {
+      "username": "thuhuong12",
+      "email": "thuhuong",
+      "password": "12345678",
+      "id": 18
+    },
+    {
+      "username": "bich",
+      "email": "thuhuo3ng",
+      "password": "1234",
+      "id": 19
+    },
+    {
+      "username": "thu",
+      "email": "thuhuong3",
+      "password": "455554",
+      "id": 20
+    },
+    {
+      "username": "fhrj",
+      "email": "thuhuong",
+      "password": "342222223",
+      "id": 21
+    },
+    {
+      "username": "luc",
+      "email": "luc@",
+      "password": "123456",
+      "id": 22
+    }
+  ],
+  "admin": [
+    {
+      "adminName": "phanthanhluc",
+      "email": "luc1234@",
+      "password": "1234",
+      "id": 1
+    }
+  ]
+}

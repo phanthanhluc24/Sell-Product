@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="shortcut icon" type="image/png" href="/sell.jpg"/>
+    <link rel="stylesheet" href="/styles/Product.css">
+    <link rel="stylesheet" href="/styles/Admin.Css">
+    <title>Giỏ Hàng</title>
+</head>
+<body onload="Gio_hang()">
+    <section id="homePage-header">
+        <div class="homePage-headerLeft">
+            <div class="header-logo">
+                Re<i class="logo-share">Share</i>
+            </div>
+        </div>
+        <div class="homePage-headerRight">
+            <div class="header-choice">
+                About us
+            </div>
+            
+            <div class="header-button1">
+                <button class="signUp-Login"><a style="color:black" href="/pages/home.html">Log out</a></button>
+
+            </div>
+           
+        </div>
+    </section>
+    <h1 class="gio_hang" style="font-family: 'Roboto',sans-serif;">Giỏ Hàng</h1>
+    <!-- In những sản phẩm được thêm vào giỏ hàng -->
+    <table border="1px" style="margin-left:50px;width:1400px;text-align:center;border-collapse: collapse;font-family: 'Roboto',sans-serif;" id="list_product_buy_now">
+    
+    </table>
+    <!-- Tính tổng thanh toán -->
+    <div id="Tong">
+
+    </div>
+</body>
+<script src="../javaScript/product.js"></script>
+<script src="./Gio_hang.js"></script>
+</html>

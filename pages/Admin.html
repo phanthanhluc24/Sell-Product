@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="/styles/Admin.Css">
+    <link rel="stylesheet" href="/styles/homePage.css">
+</head>
+
+<body onload="Show_style_table()">
+    <!-- Logo và thanh tìm kiếm  -->
+    <div class="Admin_hearder">
+       
+            <div class="homePage-headerLeft">
+                <div class="header-logo">
+                    Re<i class="logo-share">Share</i>
+                </div>
+            </div>
+            <div class="homePage-headerRight">
+                
+                <div class="header-button1">
+                    <button class="signUp-Login" ><a style="color:black" href="/pages/home.html">Log out</a></button>
+                </div>
+               
+            </div>      
+  
+
+    </div>
+
+    <div class="Admin_option">
+        <p>Products</p>
+        <p>Seals</p>
+        <p>Purcahse</p>
+    </div>
+
+    <div class="Admin_Show_product">
+        <div class="list_item_option">
+            <i class="fa-solid fa-list"></i> Products
+            <i class="fa-regular fa-user"></i> Custumer
+            <i class="fa-solid fa-cart-shopping"></i> Orders
+        </div>
+        <!-- Form lấy thông tin sản phẩm -->
+        <div class="Admin_table_show">
+            <div onclick="Add_product()"><i class="fa-solid fa-square-plus"></i>New Product</div>
+            <div class="container_form_input">
+                <div class="Form_input_name">
+                    <input type="text" id="You_Name" class="Infor_input" placeholder="Name Product">
+                </div>
+                <br>
+                <div class="Form_input_img">
+                    <input type="text" id="anh_sp" class="Infor_input" placeholder="Image Product">
+                </div>
+                <br>
+                <div class="Form_input_new_price">
+                    <input type="number" id="Price" class="Infor_input" placeholder="Price Discount">
+                </div>
+                <br>
+                <div class="Form_input_old_price">
+                    <input type="number" id="Old_price" class="Infor_input" placeholder="Old Price">
+                </div>
+                <br>
+                <div class="Form_input_option">
+                    <label for="Name">Province</label>
+                    <select name="" id="input_province">
+                        <option value="Đà Nẵng">Đà Nẵng</option>
+                        <option value="Quảng Bình">Quảng Bình</option>
+                        <option value="Quảng Trị">Quảng Trị</option>
+                        <option value="Hồ Chí Minh">Hồ Chí Minh</option>
+                        <option value="Hà Nội">Hà Nội</option>
+                    </select>
+
+                </div>
+                <input type="hidden" id="index_product">
+                <br>
+                <button onclick="Save()" id="save_product">Save</button> <button onclick="CapNhat()"
+                    id="update_product">Update</button>
+            </div>
+            <!-- In sản phẩm ra Admin -->
+            <table border="1px" style="border-collapse: collapse;" class="Show_products_item">
+
+
+            </table>
+        </div>
+    </div>
+
+</body>
+<script src="../javaScript/product.js"></script>
+
+</html>

@@ -1,0 +1,139 @@
+body{
+    margin-left: 25px;
+}
+.Admin_hearder{
+    display: flex;
+}
+
+
+.fa-magnifying-glass{
+    position: absolute;
+    left: 18%;
+    top: 3.5%;
+}
+
+.fa-chevron-down{
+    font-size: 12px;
+    padding-left: 3px;
+    color: blue;
+}
+.fa-bell,.fa-right-from-bracket{
+    padding-left: 20px;
+    color: blue;
+}
+.Admin_option{
+    line-height: 40px;
+    margin-top: 90px;
+    padding-top: 20px;
+    border-top: 1px solid grey;
+    
+}
+.Admin_Show_product{
+    position: absolute;
+    left: 15%;
+    top: 20%;
+}
+.fa-user,.fa-cart-shopping{
+    padding-left: 200px;
+    
+}
+.fa-list,.fa-user,.fa-cart-shopping{
+    color: red
+}
+.Admin_table_show{
+    margin-top: 40px;
+    width: 1200px;
+    min-height: 400px;
+}
+/* .Form_input_img{
+    position: absolute;
+    left: 50%;
+    top: 41%;
+}
+.Form_input_old_price{
+    position: absolute;
+    left: 50%;
+    top: 58%;
+} */
+.container_form_input{
+    margin-top: 20px;
+}
+#You_Name,#anh_sp,#Price,#Old_price{
+    width: 250px;
+    outline: none;
+}
+.Show_products_item{
+    margin-top: 20px;
+}
+.id_product{
+    width: 30px;
+}
+.name_product{
+    width: 400px;
+}
+.price_product{
+    width: 150px;
+}
+.img_price{
+    width: 150px;
+}
+.action_product{
+    width: 300px;
+}
+.trash_can{
+    margin-left: 150px;
+}
+.trash_can:hover{
+    color: red;
+}
+.pen_edit{
+    margin-left: 50px;
+    border: none;
+}
+.pen_edit:hover{
+    color: wheat;
+}
+.price_product_old{
+    width: 150px;
+}
+.color_boder{
+    background: darkcyan;
+}
+.color_table_admin:hover td{
+    background-color: rgb(26, 171, 223);
+  -webkit-box-shadow: 0 6px 6px -6px #0E1119;
+       -moz-box-shadow: 0 6px 6px -6px #0E1119;
+            box-shadow: 0 6px 6px -6px #0E1119;
+}
+.thung_rac{
+    margin-left: 30px;
+}
+.thung_rac:hover{
+    color: red;
+}
+#tong {
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+}
+.thanh_toan{
+    
+    border-radius: 8%;
+}
+.thanh_toan:hover{
+    background-color: #1fd1f9;
+    background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+      transition: all 0.3s ease;
+}
+.display_flex{
+    display: flex;
+    margin-left: 400px;
+}
+.display_flex li{
+    list-style: none;
+    padding: 10px;
+}
+.back_home a{
+    text-decoration: none;
+    color: #0E1119;
+}
+
